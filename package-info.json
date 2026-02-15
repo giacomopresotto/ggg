@@ -1,11 +1,11 @@
 {
-	"name" : "gp.package",
+	"name" : "ggg",
 	"displayname" : "",
 	"version" : "0.1",
 	"author" : "Giacomo Presotto",
 	"authors" : [  ],
-	"description" : "A collection of abstractions of modal syntehsis models and utilities.",
-	"tags" : [ "modal synthesis" ],
+	"description" : "Great Gen Granulator for Max",
+	"tags" : [ "granular synthesis" ],
 	"website" : "",
 	"extends" : "",
 	"extensible" : 0,
@@ -24,7 +24,7 @@
 
 	}
 ,
-	"homepatcher" : "gp.launch.maxpat",
+	"homepatcher" : "ggg.launch.maxpat",
 	"package_extra" : 	{
 		"reverse_domain" : "",
 		"copyright" : ""
@@ -33,15 +33,15 @@
 	"filelist" : 	{
 		"examples" : [ "" ],
 		"externals" : [ "" ],
-		"patchers" : [ "gp.1D-modal_resonator~.maxpat", "gp.2D-modal_resonator~.maxpat", "gp.simple_mallet~.maxpat", "gp.simple_bow~.maxpat", "gp.onset_detector~.maxpat", "gp.resonators~.maxpat", "gp.harp~.maxpat" ],
-		"help" : [ "gp.1D-modal_resonator~.maxhelp" ],
+		"patchers" : [ "how_to_ggg.maxpat" ],
+		"help" : [ "" ],
 		"interfaces" : [ "" ],
 		"jsui" : [ "" ],
 		"media" : [ "" ],
 		"misc" : [ "" ],
 		"docs" : [ "" ],
 		"javascript" : [ "" ],
-		"extras" : [ "gp.launch.maxpat" ]
+		"extras" : [ "ggg.launch.maxpat" ]
 	}
 ,
 	"c74install" : 1,

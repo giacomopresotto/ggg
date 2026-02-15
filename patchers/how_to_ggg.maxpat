@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 460.0, 178.0, 709.0, 727.0 ],
+		"rect" : [ 339.0, 184.0, 709.0, 727.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-5",
+					"local" : 1,
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -55,8 +56,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 185.0, 63.0, 180.0, 24.0 ],
-					"text" : "feed the granulator live audio"
+					"patching_rect" : [ 185.0, 63.0, 194.0, 24.0 ],
+					"text" : "1) feed the granulator live audio"
 				}
 
 			}
@@ -69,8 +70,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 47.0, 111.0, 206.0, 52.0 ],
-					"text" : "control the parameters as attributes, with messages or attrui objects",
+					"patching_rect" : [ 54.0, 112.0, 219.0, 52.0 ],
+					"text" : "2) control the parameters as attributes, with messages or attrui objects",
 					"textjustification" : 1
 				}
 
@@ -119,8 +120,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.0, 413.0, 225.0, 37.0 ],
-					"text" : "use a mcs.gen object to get all of the 32 outputs on a single MC chord"
+					"patching_rect" : [ 140.0, 412.5, 225.0, 37.0 ],
+					"text" : "3) use a mcs.gen object to get all of the 32 outputs on a single MC chord"
 				}
 
 			}
@@ -187,8 +188,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 30.0, 420.0, 84.0, 22.0 ],
-					"text" : "mcs.gen~ ggg"
+					"patching_rect" : [ 30.0, 420.0, 108.0, 22.0 ],
+					"text" : "mcs.gen~ gp.ggg2"
 				}
 
 			}
@@ -523,9 +524,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "GGG.gendsp",
-				"bootpath" : "~/Documents/Max 8/Library",
-				"patcherrelativepath" : "../../../Library",
+				"name" : "gp.ggg2.gendsp",
+				"bootpath" : "~/Documents/Max 8/Packages/ggg/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gp.grano.gendsp",
+				"bootpath" : "~/Documents/Max 8/Packages/ggg/code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
