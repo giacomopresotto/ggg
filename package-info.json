@@ -1,0 +1,49 @@
+{
+	"name" : "ggg",
+	"displayname" : "",
+	"version" : "0.1",
+	"author" : "Giacomo Presotto",
+	"authors" : [  ],
+	"description" : "Great Gen Granulator for Max",
+	"tags" : [ "granular synthesis" ],
+	"website" : "",
+	"extends" : "",
+	"extensible" : 0,
+	"max_version_min" : "8.0",
+	"max_version_max" : "none",
+	"os" : 	{
+		"macintosh" : 		{
+			"min_version" : "10.9.x",
+			"platform" : [ "aarch64", "x64" ]
+		}
+,
+		"windows" : 		{
+			"min_version" : "10",
+			"platform" : [ "x64" ]
+		}
+
+	}
+,
+	"homepatcher" : "ggg.launch.maxpat",
+	"package_extra" : 	{
+		"reverse_domain" : "",
+		"copyright" : ""
+	}
+,
+	"filelist" : 	{
+		"examples" : [ "" ],
+		"externals" : [ "" ],
+		"patchers" : [ "how_to_ggg.maxpat" ],
+		"help" : [ "" ],
+		"interfaces" : [ "" ],
+		"jsui" : [ "" ],
+		"media" : [ "" ],
+		"misc" : [ "" ],
+		"docs" : [ "" ],
+		"javascript" : [ "" ],
+		"extras" : [ "ggg.launch.maxpat" ]
+	}
+,
+	"c74install" : 1,
+	"installdate" : 3836967072
+}
