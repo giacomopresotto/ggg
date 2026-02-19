@@ -1,9 +1,7 @@
 # ggg
-________
 ggg is a granulator for Max made in gen~.
 
-
-How to use:
+**How to use:**
 
 1) download and unzip the package folder;
 
