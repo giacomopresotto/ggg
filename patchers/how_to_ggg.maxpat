@@ -70,7 +70,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.0, 112.0, 219.0, 52.0 ],
+					"patching_rect" : [ 54.0, 112.0, 220.0, 52.0 ],
 					"text" : "2) control the parameters as attributes, with messages or attrui objects",
 					"textjustification" : 1
 				}
@@ -120,8 +120,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 412.5, 225.0, 37.0 ],
-					"text" : "3) use a mcs.gen object to get all of the 32 outputs on a single MC chord"
+					"patching_rect" : [ 140.0, 412.5, 239.0, 37.0 ],
+					"text" : "3) use a mcs.gen object to get all of the 32 outputs on a single MC patchchord"
 				}
 
 			}

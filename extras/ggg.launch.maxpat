@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 260.0, 309.0, 885.0, 365.0 ],
+		"rect" : [ 617.0, 204.0, 885.0, 365.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,33 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 24.0,
+					"id" : "obj-11",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 117.0, 15.0, 128.0, 60.0 ],
+					"text" : "Great Gen Granulator"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"forceaspect" : 1,
+					"id" : "obj-2",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 15.0, 15.0, 97.0, 97.0 ],
+					"pic" : "/Users/giacomo/Documents/Max 8/Packages/ggg/icon.png"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "message",
@@ -88,20 +115,6 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 105.0, 135.0, 66.0, 22.0 ],
 					"text" : "cycle~ 880"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 24.0,
-					"id" : "obj-58",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 242.0, 33.0 ],
-					"text" : "great gen granulator"
 				}
 
 			}
@@ -1152,6 +1165,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/ggg/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "icon.png",
+				"bootpath" : "~/Documents/Max 8/Packages/ggg",
+				"patcherrelativepath" : "..",
+				"type" : "PNG",
 				"implicit" : 1
 			}
  ],
