@@ -9,4 +9,4 @@ ggg is a granulator for Max made in gen~.
 
 3) launch the package from the package manager to learn how to use it in you patching;
 
-4) try to not to destroy you eardrums.
+4) try to not destroy your eardrums.
